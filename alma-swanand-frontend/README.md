@@ -25,6 +25,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Key Routes
 
+To be able to see the leads as an admin navigate to ```/admin/leads```
+
 - Home page with lead capture form
 - ```/admin/leads```: Admin dashboard for lead management
 - ```/api/submit-lead```: API endpoint for form submission
