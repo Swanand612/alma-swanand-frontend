@@ -113,10 +113,10 @@ export default function LeadsPage() {
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
           >
-            Previous
+            {"<"}
           </Button>
           <div className="text-sm">
-            Page {page} of {totalPages}
+            {page} of {totalPages}
           </div>
           <Button
             variant="outline"
@@ -124,7 +124,7 @@ export default function LeadsPage() {
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
           >
-            Next
+            {">"}
           </Button>
         </div>
       )}
