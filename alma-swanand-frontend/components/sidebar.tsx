@@ -7,10 +7,18 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="w-64 bg-[#F7F7DC] border-r">
-      <div className="p-6">
-        <Link href="/admin" className="text-2xl font-bold">
-          almă
+    <div className="w-64 border-r">
+      <div className="px-6 pb-16 bg-[#d9dea5]">
+        <Link href="/" className="text-2xl font-bold">
+          <span className="ml-[30rem] mr-auto text-justify">
+            <img
+              src="https://cdn.prod.website-files.com/656ddb1f77f5af1d193d7150/656ddd16e17e0d8eed192bed_Group%2037.png"
+              loading="lazy"
+              width="124"
+              alt=""
+              class="f-logo"
+            />
+          </span>
         </Link>
       </div>
       <nav className="space-y-1 px-3">

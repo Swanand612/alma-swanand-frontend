@@ -124,13 +124,24 @@ export default function LeadForm() {
 
   return (
     <Card>
-      <CardHeader className="justify-center bg-[#F7F7DC] rounded-t-lg relative overflow-hidden h-[20rem]">
+      <CardHeader className="justify-center bg-[#d9dea5] rounded-t-lg relative overflow-hidden h-[20rem]">
         <div className="absolute -left-12 -top-12">
-          <div className="w-32 h-32 bg-[#C5D86D] rounded-full opacity-80 absolute" />
-          <div className="w-24 h-24 bg-[#C5D86D] rounded-full opacity-60 absolute top-12 left-12" />
-          <div className="w-16 h-16 bg-[#C5D86D] rounded-full opacity-40 absolute top-20 left-20" />
+          <div className="w-32 h-32 bg-[#C5D800] rounded-full opacity-80 absolute" />
+          <div className="w-32 h-32 bg-[#C5D800] rounded-full opacity-60 absolute top-24 left-16" />
+          <div className="w-32 h-32 bg-[#C5D800] rounded-full opacity-40 absolute top-48 left-16" />
+          <div className="w-32 h-32 bg-[#C5D800] rounded-full opacity-40 absolute top-60" />
         </div>
-        <CardTitle className="text-3xl font-bold text-black relative z-10">
+
+        <span className="ml-[30rem] mr-auto text-justify pb-6">
+          <img
+            src="https://cdn.prod.website-files.com/656ddb1f77f5af1d193d7150/656ddd16e17e0d8eed192bed_Group%2037.png"
+            loading="lazy"
+            width="124"
+            alt=""
+            class="f-logo"
+          />
+        </span>
+        <CardTitle className="text-3xl font-bold text-black relative z-10 ml-[30rem] mr-auto text-justify">
           Get An Assessment
           <br />
           Of Your Immigration Case
