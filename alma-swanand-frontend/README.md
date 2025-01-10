@@ -23,30 +23,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Project Structure
-
-alma-swanand-frontend/
-├── components/ # Reusable UI components
-│ ├── lead-form.tsx # Main lead capture form
-│ ├── leads-table.tsx # Admin leads management table
-│ └── ui/ # Shared UI components
-├── app/ # Application routes
-│ ├── admin/ # Admin section
-│ └── api/ # API routes
-└── **tests**/ # Test files
-
 ## Key Routes
 
-/: Home page with lead capture form
-/admin/leads: Admin dashboard for lead management
-/api/submit-lead: API endpoint for form submission
-/api/update-lead-status: API endpoint for status updates
+- Home page with lead capture form
+- /admin/leads: Admin dashboard for lead management
+- /api/submit-lead: API endpoint for form submission
+- /api/update-lead-status: API endpoint for status updates
 
 ## Development Tools
 
-Next.js 13+
-TypeScript
-Tailwind CSS
-Redux Toolkit
-React Hook Form
-JSON Server (mock backend)
+- Next.js 13+
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
+- React Hook Form
+- JSON Server (mock backend)
