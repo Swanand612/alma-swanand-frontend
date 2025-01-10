@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alma Immigration Portal
+
+A modern web application built with Next.js that helps potential immigrants connect with experienced immigration attorneys. The platform streamlines the visa consultation process by collecting relevant information and managing leads efficiently.
+
+## Features
+
+- User-friendly lead capture form
+- Support for multiple visa types (O-1, H1B, EB-1, etc.)
+- Admin dashboard for lead management
+- Real-time status updates
+- File upload capabilities
+- Form validation and error handling
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository:
 
 ```bash
+git clone https://github.com/Swanand612/alma-swanand-frontend.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+alma-swanand-frontend/
+├── components/ # Reusable UI components
+│ ├── lead-form.tsx # Main lead capture form
+│ ├── leads-table.tsx # Admin leads management table
+│ └── ui/ # Shared UI components
+├── app/ # Application routes
+│ ├── admin/ # Admin section
+│ └── api/ # API routes
+└── **tests**/ # Test files
 
-## Learn More
+## Key Routes
 
-To learn more about Next.js, take a look at the following resources:
+/: Home page with lead capture form
+/admin/leads: Admin dashboard for lead management
+/api/submit-lead: API endpoint for form submission
+/api/update-lead-status: API endpoint for status updates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development Tools
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 13+
+TypeScript
+Tailwind CSS
+Redux Toolkit
+React Hook Form
+JSON Server (mock backend)
