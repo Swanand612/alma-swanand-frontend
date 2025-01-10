@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - ```/admin/leads```: Admin dashboard for lead management
 - ```/api/submit-lead```: API endpoint for form submission
 - ```/api/update-lead-status```: API endpoint for status updates
-- ```/login``` : Will take the user to the login page. This will redirect to ```/admin/leads``` on succesful login
+- ```/login``` : Will take the user to the login page. This will redirect to ```/admin/leads``` on successful login
 
 ## Development Tools
 
