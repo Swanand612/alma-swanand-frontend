@@ -1,0 +1,19 @@
+{
+  "leads": [
+    {
+      "id": "1736499119649",
+      "firstName": "joh ",
+      "lastName": "doe",
+      "email": "john@example.com",
+      "linkedin": "https://www.linkedin.com/in/johndoe",
+      "country": "Russia",
+      "visas": [
+        "o1"
+      ],
+      "message": "sdaasdasdasd",
+      "status": "PENDING",
+      "submittedAt": "2025-01-10T08:51:59.649Z",
+      "resumeFilename": "WM_EIL_MFL72010511.pdf"
+    }
+  ]
+}
